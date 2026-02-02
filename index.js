@@ -1,5 +1,5 @@
-if (process.env.RENDER_INSTANCE_ID !== "0") {
-  console.log("Not primary instance, exiting.");
+if (process.env.RENDER_INSTANCE_ID && process.env.RENDER_INSTANCE_ID !== "0") {
+  console.log("Duplicate Render instance, exiting.");
   process.exit(0);
 }
 global.BOT_RUNNING = true;
@@ -45,7 +45,9 @@ if (fs.existsSync(DATA_FILE)) {
 } else {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 }
-
+function saveData() {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+}
 
 /* =======================
    QUESTIONS
