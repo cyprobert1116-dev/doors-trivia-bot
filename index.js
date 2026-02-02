@@ -31,15 +31,17 @@ let data = {
   totalCorrect: {}
 };
 
-// Auto-create or load
 if (fs.existsSync(DATA_FILE)) {
   try {
     const raw = fs.readFileSync(DATA_FILE, "utf8");
-    if (raw.trim().length > 0) data = JSON.parse(raw);
-    else fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-catch (err) {
-  console.error("DATA LOAD FAILED:", err);
-  process.exit(1); // DO NOT overwrite data
+    if (raw.trim().length > 0) {
+      data = JSON.parse(raw);
+    }
+  } catch (err) {
+    fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+  }
+} else {
+  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 }
 } else {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
