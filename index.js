@@ -1,7 +1,3 @@
-if (process.env.RENDER_INSTANCE_ID && process.env.RENDER_INSTANCE_ID !== "0") {
-  console.log("Duplicate Render instance, exiting.");
-  process.exit(0);
-}
 global.BOT_RUNNING = true;
 
 const { Client, GatewayIntentBits } = require("discord.js");
