@@ -45,11 +45,6 @@ catch (err) {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 }
 
-// Save helper
-function saveData() {
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-}
-
 /* =======================
    QUESTIONS
 ======================= */
