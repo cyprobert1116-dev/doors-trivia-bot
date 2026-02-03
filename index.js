@@ -524,9 +524,6 @@ async function askQuestion(channel) {
     const answeredToday = data.correctHistory[userId].length;
     const players = playersAttempting(channel);
 
-    // ====== REWARD LOGIC ======
-    let earned = 0;
-
 // ====== REWARD LOGIC ======
 let earned = 0;
 
