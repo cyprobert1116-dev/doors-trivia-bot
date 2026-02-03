@@ -58,7 +58,7 @@ const questions = [
     answer: "300"
   },
   {
-    question: "What is the first badge you earn?",
+    question: "What is the first badge you earn in doors?",
     answer: "welcome"
   },
   {
@@ -74,7 +74,7 @@ const questions = [
     answer: "tower heroes"
   },
   {
-    question: "what subfloor was the first?",
+    question: "what subfloor was the first to be added?",
     answer: "rooms"
   },
   {
@@ -86,8 +86,8 @@ const questions = [
     answer: "dealt it"
   },
   {
-    question: "what badge gives you the tower heroes skin, the fractured skeleton key?",
-    answer: "300"
+    question: "what badge gives you the tower heroes skin : fractured skeleton key?",
+    answer: "we out here"
   },
   {
     question: "how many points do you need in 1 battle mode round for the high roller badge?",
@@ -122,7 +122,7 @@ const questions = [
     answer: "green"
   },
   {
-    question: "name the exact name of the red glitched ambushed spawned by a glitch fragment",
+    question: "what is the name of the red glitched ambushed spawned by a glitch fragment",
     answer: "ar0xmbush"
   },
   {
@@ -178,7 +178,7 @@ const questions = [
     answer: "hey man"
   },
   {
-    question: "the daily shop rotation usually holds _ skins at a time",
+    question: "the daily shop rotation usually holds how many skins at a time?",
     answer: "8"
   },
   {
@@ -222,16 +222,16 @@ const questions = [
     answer: "princess"
   },
   {
-    question: "?",
-    answer: "300"
+    question: "what sound cue warns you that screech is near?",
+    answer: "psst"
   },
   {
     question: "what ambush modifier was removed after being buggy for a long time?",
     answer: "again and again and again"
   },
   {
-    question: "?",
-    answer: "300"
+    question: "how many skeleton doors could you unlock with 3 skeleton keys?",
+    answer: "6"
   },
   {
     question: "what seek modifier was removed for making the game easier rather than harder?",
@@ -258,7 +258,7 @@ const questions = [
     answer: "90"
   },
   {
-    question: "timothy's bite can be fatal when the _____ modifier is active",
+    question: "timothy's bite can be fatal when the what modifier is active?",
     answer: "itchy"
   },
   {
@@ -274,11 +274,11 @@ const questions = [
     answer: "orange"
   },
   {
-    question: "the backdoor's keys are the color...",
+    question: "the backdoor's keys are what color?",
     answer: "yellow"
   },
   {
-    question: "a painting of a crescent moon can be found in the outdoors with the title...",
+    question: "a painting of a crescent moon can be found in the outdoors with what title?",
     answer: "her"
   },
   {
@@ -366,45 +366,101 @@ const questions = [
     answer: "100"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "what item did the starlight barrel serve as a replacement for?",
+    answer: "NVCS-3000"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "How many doors does the backdoor subfloor contain?",
+    answer: "50"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "How many doors did the rooms subfloor contain?",
+    answer: "1000"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "what is the name of the rarest entity that may appear for a second when opening a door?",
+    answer: "shadow"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "which entity was teased in Lsplash's profile picture pre-hotel+?",
+    answer: "dupe"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "what was the new hazard type added with floor 2?",
+    answer: "firedamp"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "what is the name of the hazard/entity added with the backdoor?",
+    answer: "vaccum"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "will cheddar balls stop complaining about random things by the year 2048?",
+    answer: "no"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
+    question: "exactly how many years old was doors on the release of the outdoors?",
+    answer: "3"
   },
   {
-    question: "How much gold does the skeleton key cost in Jeff's shop?",
-    answer: "300"
-  }
+    question: "what bundle contains skins with the overtaken croma?",
+    answer: "sought"
+  },
+  {
+    question: "which skeleton key skin does not grant aimbot?",
+    answer: "voxel"
+  },
+  {
+    question: "what halloween-related item skin was teased months before skins were added?",
+    answer: "blood bag"
+  },
+  {
+    question: "what item could you obtain by putting shears in your rift before the official addition of shears?",
+    answer: "evil dollar"
+  },
+  {
+    question: "the first entity-based item skin was based on who?",
+    answer: "figure"
+  },
+  {
+    question: "what entity has an anticheat version of themselves?",
+    answer: "ambush"
+  },
+  {
+    question: "what entity was completely removed from the mines and added to a different subfloor?",
+    answer: "snare"
+  },
+  {
+    question: "the largest grumble is called the ____ grumble.",
+    answer: "queen"
+  },
+  {
+    question: "blitz's pink face was called the ____ of rush when it was leaked/teased.",
+    answer: "sister"
+  },
+  {
+    question: "blitz's green face was called the ____ of rush when it was leaked/teased.",
+    answer: "brother"
+  },
+  {
+    question: "what bundle contains skins with the overtaken croma?",
+    answer: "sought"
+  },
+  {
+    question: "what entity replaced dupe in super hard mode 2023?",
+    answer: "subspace tripmine"
+  },
+  {
+    question: "battle mode was first called ____ mode.",
+    answer: "battle"
+  },
+  {
+    question: "what item skin does the foam chroma belong to?",
+    answer: "ban hammer"
+  },
+  {
+    question: "?",
+    answer: "sought"
+  },
 ];
 
 /* =======================
@@ -471,14 +527,19 @@ async function askQuestion(channel) {
     // ====== REWARD LOGIC ======
     let earned = 0;
 
-    if (answeredToday < 40) { // new daily limit
-      if (players <= 1) earned = 25;     // solo
-      else if (players === 2) earned = 40; // duo
-      else if (players === 3) earned = 55; // trio
-      else earned = 75;                    // 4+ active users
-    } else {
-      earned = 10; // flat after limit reached
-    }
+// ====== REWARD LOGIC ======
+let earned = 0;
+
+if (answeredToday < 50) {
+  if (players <= 1) earned = 25;       // solo
+  else if (players === 2) earned = 30; // duo
+  else if (players === 3) earned = 35; // trio
+  else earned = 45;                    // 4+
+} else {
+  if (players === 2) earned = 15;      // duo bonus after limit
+  else earned = 10;                    // everyone else
+}
+
 
     data.credits[userId] += earned;
     data.correctHistory[userId].push(Date.now());
