@@ -774,13 +774,13 @@ async function askQuestion(channel) {
 // ====== REWARD LOGIC ======
 let earned = 0;
 
-if (answeredToday < 50) {
+if (answeredToday < 40) {
   if (players <= 1) earned = 25;       // solo
-  else if (players === 2) earned = 30; // duo
-  else if (players === 3) earned = 35; // trio
-  else earned = 45;                    // 4+
+  else if (players === 2) earned = 32; // duo
+  else if (players === 3) earned = 40; // trio
+  else earned = 50;                    // 4+
 } else {
-  if (players === 2) earned = 15;      // duo bonus after limit
+  if (players > 1) earned = 16;      // duo bonus after limit
   else earned = 10;                    // everyone else
 }
 
