@@ -1,14 +1,12 @@
 const express = require("express");
 const app = express();
 
-const PORT = process.env.PORT || 3000;
-
 app.get("/", (req, res) => {
-  res.send("Bot is running!");
+  res.send("Bot is alive!");
 });
 
-app.listen(PORT, () => {
-  console.log("Web server running on port", PORT);
+app.listen(3000, () => {
+  console.log("Web server running");
 });
 
 global.BOT_RUNNING = true;
