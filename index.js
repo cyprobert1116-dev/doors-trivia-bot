@@ -151,7 +151,7 @@ const questions = [
     answer: "roomy"
   },
   {
-    question: "what was sally once known as?",
+    question: "what was sally once known as before theybecame a full entity?",
     answer: "window"
   },
   {
@@ -471,8 +471,244 @@ const questions = [
     answer: "ban hammer"
   },
   {
-    question: "?",
+    question: "what entity uses the weeping angel mechanic?",
+    answer: "monument"
+  },
+  {
+    question: "what type of tree is eyestalk?",
+    answer: "aspen"
+  },
+  {
+    question: "what color is the light of all basic black skins?",
+    answer: "white"
+  },
+  {
+    question: "what is the main enemy of the outdoors?",
+    answer: "world lotus"
+  },
+  {
+    question: "what do modifiers including snare refer to snares as?",
+    answer: "pancakes"
+  },
+  {
+    question: "how much stardust do chromas usually cost?",
+    answer: "20"
+  },
+  {
+    question: "what was the first game to collab with doors?",
+    answer: "pls donate"
+  },
+  {
+    question: "what badge's description involves?",
     answer: "sought"
+  },
+  {
+    question: "what is a single giggle's maximum damage output?",
+    answer: "31"
+  },
+  {
+    question: "what color is not to be confused with blue?",
+    answer: "cyan"
+  },
+  {
+    question: "what color is not to be confused with purple?",
+    answer: "magenta"
+  },
+  {
+    question: "what does translucent mean?",
+    answer: "semi-transparent"
+  },
+  {
+    question: "the dark chocolate chroma for the candy bar crucifix turns the crucifixion what color?",
+    answer: "red"
+  },
+  {
+    question: "the white chocolate chroma for the candy bar crucifix turns the crucifixion what color?",
+    answer: "blue"
+  },
+  {
+    question: "what skin for the flashlight says in its description 'love it or hate it, its a flashlight now?",
+    answer: "candy corn"
+  },
+  {
+    question: "what color was rush in his extremely early stages?",
+    answer: "yellow"
+  },
+  {
+    question: "what badge description says it was not playtested to prove its possibility?",
+    answer: "in plain sight 2"
+  },
+  {
+    question: "how many knobs does the uptime badge award?",
+    answer: "200"
+  },
+  {
+    question: "how many knobs does the clean run badge award?",
+    answer: "100"
+  },
+  {
+    question: "how many knobs does the low latency badge award?",
+    answer: "50"
+  },
+  {
+    question: "how many knobs does the holiday spirit badge award?",
+    answer: "600"
+  },
+  {
+    question: "how many knobs does the far from home badge award?",
+    answer: "300"
+  },
+  {
+    question: "how many knobs does the good haul badge award?",
+    answer: "500"
+  },
+  {
+    question: "how many knobs does true tower hero award?",
+    answer: "150"
+  },
+  {
+    question: "doors ugc will earn you how many knobs per item?",
+    answer: ""
+  },
+  {
+    question: "but would you lose?",
+    answer: "nah, i'd win"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
+  },
+  {
+    question: "?",
+    answer: "w"
   },
 ];
 
