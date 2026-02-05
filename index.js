@@ -1,12 +1,4 @@
 
-app.get("/", (req, res) => {
-  res.send("Bot is alive!");
-});
-
-app.listen(3000, () => {
-  console.log("Web server running");
-});
-
 global.BOT_RUNNING = true;
 
 const { Client, GatewayIntentBits } = require("discord.js");
