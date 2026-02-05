@@ -1,4 +1,3 @@
-const { Client, GatewayIntentBits } = require("discord.js");
 
 app.get("/", (req, res) => {
   res.send("Bot is alive!");
