@@ -1,5 +1,4 @@
-const express = require("express");
-const app = express();
+const { Client, GatewayIntentBits } = require("discord.js");
 
 app.get("/", (req, res) => {
   res.send("Bot is alive!");
